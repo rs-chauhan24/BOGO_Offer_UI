@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="offer-container">
+    <!-- Title -->
+    <div class="title-container">
+      <hr class="line">
+      <h2>YAY! It’s BOGO</h2>
+      <hr class="line">
+    </div>
+
+    <!-- 1 Unit Option -->
+    <fieldset class="unit-option">
+      <input type="radio" id="unit1" name="unit" value="1">
+      <label for="unit1">1 Unit <span class="discount">10% Off</span></label>
+      <div class="price-container">
+        <span class="price">$10.00 USD</span>
+        <span class="original-price">$24.00 USD</span>
+      </div>
+    </fieldset>
+
+    <!-- 2 Unit Option (Most Popular) -->
+    <fieldset class="unit-option most-popular">
+      <legend class="most-popular-tag">MOST POPULAR</legend>
+      <input type="radio" id="unit2" name="unit" value="2">
+      <label for="unit2">2 Units <span class="discount">20% Off</span></label>
+      <div class="size-color-container">
+        <!-- Dropdowns for item 1 -->
+        <div class="dropdown-group">
+          <label>Size:</label>
+          <select>
+            <option>S</option><option>M</option><option>L</option>
+          </select>
+          <label>Colour:</label>
+          <select>
+            <option>Black</option><option>Blue</option><option>Red</option>
+          </select>
+        </div>
+        <!-- Dropdowns for item 2 -->
+        <div class="dropdown-group">
+          <label>Size:</label>
+          <select>
+            <option>S</option><option>M</option><option>L</option>
+          </select>
+          <label>Colour:</label>
+          <select>
+            <option>Black</option><option>Blue</option><option>Red</option>
+          </select>
+        </div>
+      </div>
+      <div class="price-container">
+        <span class="price">$18.00 USD</span>
+        <span class="original-price">$24.00 USD</span>
+      </div>
+    </fieldset>
+
+    <!-- 3 Unit Option -->
+    <fieldset class="unit-option">
+      <input type="radio" id="unit3" name="unit" value="3">
+      <label for="unit3">3 Units <span class="discount">30% Off</span></label>
+      <div class="price-container">
+        <span class="price">$24.00 USD</span>
+        <span class="original-price">$24.00 USD</span>
+      </div>
+    </fieldset>
+
+    <!-- Free Delivery and Total -->
+    <div class="summary-container">
+      <span class="free-delivery">Free Delivery</span>
+      <span class="total">Total: $18.00 USD</span>
+    </div>
+
+    <!-- Add to Cart -->
+    <div class="add-to-cart-container">
+      <button type="button">+ Add to Cart</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>@ Powered by Pumper</p>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
